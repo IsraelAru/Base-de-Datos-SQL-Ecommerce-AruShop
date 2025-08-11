@@ -53,3 +53,11 @@ INSERT INTO articulos(nombre_articulo, precio, cantidad_stock, descripcion)
     ("buzo", 12000, 16, "buzo frizado 100% algodon"),
     ("remera", 8000, 6, "remera de jersey 100% algodon"),
     ("joggin", 15000, 12, "joggin frizado 100% algodon");
+
+INSERT INTO ventas(id_clientes, total)
+	VALUES
+    (1,60000),
+    (2,75000),
+    (3,15000);
+
+SELECT * FROM ventas;
